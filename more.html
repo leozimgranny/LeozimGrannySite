@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <style>
+        @font-face {
+            font-family: 'VAG Rounded';
+            src: url('https://github.com/leozimgranny/LeozimGrannySite/releases/download/sitehopedo/vag-rounded.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'VAG Rounded', Arial, sans-serif; /* Usando a fonte personalizada */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #161e20, #1e008a); /* Gradiente azul */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1faf90, #70966c); /* Gradiente azul */
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block; /* Mantém os links na mesma linha em telas maiores */
+        }
+
+        /* Quebra de linha apenas em telas menores que 600px */
+        @media (max-width: 600px) {
+            nav a {
+                display: block; /* Coloca os links em blocos, cada um em uma nova linha */
+                margin: 10px 0; /* Adiciona um espaço entre os links */
+            }
+        }
+
+        main {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .mod-box {
+            display: inline-block;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .mod-box:hover {
+            transform: scale(1.05);
+        }
+
+        .mod-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        .mod-box p {
+            font-family: 'VAG Rounded', Arial, sans-serif; /* Aplicando a fonte no parágrafo */
+            font-size: 18px;
+            color: #333; /* Cor personalizada */
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            font-family: 'VAG Rounded', Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        bosta {
+            text-align: center;
+            color: rgb(0, 26, 255);
+            font-family: 'VAG Rounded', Arial, sans-serif;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- <header>
+    <h2>Leozim Granny Site</h2>
+</header> -->
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="mods.html">Mods</a>
+    <a href="games.html">Games</a>
+    <a href="modpacks.html">Mod Packs</a>
+    <a href="more.html">More</a>
+</nav>
+
+<main>
+    <p>more</p>
+    <p>© 2024 LeozimGranny - All rights reserved</p>
+    <p>This site was made by Leozim Granny, here I will post my game mods and modpacks</p>
+    <p>for now the Website Domain will be www.leozimgranny.shop, but soon it will be www.leozimgranny.com</p>
+</main>
+
+</body>
+</html>

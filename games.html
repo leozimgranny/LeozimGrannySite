@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Games</title>
+    <style>
+
+        @font-face {
+            font-family: 'VAG Rounded';
+            src: url('https://github.com/leozimgranny/LeozimGrannySite/releases/download/sitehopedo/vag-rounded.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'VAG Rounded', Arial, sans-serif; /* Usando a fonte personalizada */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #161e20, #1e008a); /* Gradiente azul */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1faf90, #70966c); /* Gradiente azul */
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block; /* Mantém os links na mesma linha em telas maiores */
+        }
+
+        /* Quebra de linha apenas em telas menores que 600px */
+        @media (max-width: 600px) {
+            nav a {
+                display: block; /* Coloca os links em blocos, cada um em uma nova linha */
+                margin: 10px 0; /* Adiciona um espaço entre os links */
+            }
+        }
+
+        main {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .mod-box {
+            display: inline-block;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .mod-box:hover {
+            transform: scale(1.05);
+        }
+
+        .mod-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            color: rgb(0, 26, 255);
+            font-family: 'VAG Rounded', Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        p2 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-family: 'VAG Rounded', Arial, sans-serif;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- <header>
+    <h2>Games</h2>
+</header> -->
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="mods.html">Mods</a>
+    <a href="games.html">Games</a>
+    <a href="modpacks.html">Mod Packs</a>
+    <a href="more.html">More</a>
+</nav>
+
+<main>
+    <h1>Games</h1>
+
+    <!-- Caixinha com a imagem -->
+    <div class="mod-box">
+        <a href="MazeGame.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/MazeGameBanner.png" alt="Imagem do Mod">
+            <p>Maze Game</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="MinecraftParkour.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/MinecraftParkourBanner.png" alt="Imagem do Mod">
+            <p>Minecraft Parkour</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="SlendrinaTheEscapes.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/SlendrinaTheEscapesBanner.png" alt="Imagem do Mod">
+            <p>Slendrina The Escapes</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="SlendrinaTheEscapesChapterTwo.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/SlendrinaTheEscapes.ChapterTwoBanner.png" alt="Imagem do Mod">
+            <p>Slendrina The Escapes Chapter Two</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="GrannyTheForest.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/GrannyTheForestBanner.png" alt="Imagem do Mod">
+            <p>Granny The Forest</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="HotelInsanityTheEscapes.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/HotelInsanityTheEscapesBanner.png" alt="Imagem do Mod">
+            <p>Hotel Insanity The Escapes</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="GrannyTheObbyRemake.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/GrannyTheObbyRemakeBanner.png" alt="Imagem do Mod">
+            <p>Granny The Obby Remake</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="EscapeFromSlendrina'Mom.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/EscapeFromSlendrina.MomBanner.png" alt="Imagem do Mod">
+            <p>Escape From Slendrina'Mom</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="GrannyTheBackrooms.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/GrannyTheBackroomsBanner.png" alt="Imagem do Mod">
+            <p>Granny The backrooms</p>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="SlendrinaTheEscapesChapterTwoRemake.html">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/games/SlendrinaTheEscapesChapterTwoRemakeBanner.png" alt="Imagem do Mod">
+            <p>Slendrina The Escapes Chapter Two Remake</p>
+        </a>
+    </div>
+
+</main>
+
+<footer>
+    <p2>© 2024 LeozimGranny - All rights reserved</p2>
+</footer>
+
+</body>
+</html>
