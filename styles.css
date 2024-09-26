@@ -66,5 +66,15 @@ p {
     font-family: 'VAG Rounded', Arial, sans-serif;
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 
 /* Restante dos estilos... */
