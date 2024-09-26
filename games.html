@@ -33,25 +33,40 @@
         }
 
         nav {
+            display: flex;
+            justify-content: space-between; /* Espaço entre logo e links */
+            align-items: center; /* Alinha verticalmente os itens */
             background-color: #333;
             padding: 10px;
-            text-align: center;
         }
 
         nav a {
             color: white;
-            margin: 0 15px;
             text-decoration: none;
             font-size: 18px;
-            display: inline-block; /* Mantém os links na mesma linha em telas maiores */
+            margin: 0 15px;
         }
 
-        /* Quebra de linha apenas em telas menores que 600px */
         @media (max-width: 600px) {
             nav a {
                 display: block; /* Coloca os links em blocos, cada um em uma nova linha */
                 margin: 10px 0; /* Adiciona um espaço entre os links */
             }
+        }
+
+        nav .logo img {
+            width: 40px; /* Ajuste o tamanho da logo */
+            height: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center; /* Centraliza os links dentro do container */
+            flex-grow: 1; /* Faz os links ocuparem o espaço restante */
+        }
+
+        .nav-links a {
+            margin: 0 15px;
         }
 
         main {
@@ -118,11 +133,16 @@
 </header> -->
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="mods.html">Mods</a>
-    <a href="games.html">Games</a>
-    <a href="modpacks.html">Mod Packs</a>
-    <a href="more.html">More</a>
+    <a href="index.html" class="logo">
+        <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/home/favicon.ico" alt="Leozim Granny Logo">
+    </a>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="mods.html">Mods</a>
+        <a href="games.html">Games</a>
+        <a href="modpacks.html">Mod Packs</a>
+        <a href="more.html">More</a>
+    </div>
 </nav>
 
 <main>
