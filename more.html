@@ -66,9 +66,14 @@
         }
         
         @media (max-width: 600px) {
-            nav-links a {
-                display: block; /* Coloca os links em blocos, cada um em uma nova linha */
-                margin: 10px 0; /* Adiciona um espaço entre os links */
+            .nav-links {
+                flex-direction: column; /* Muda a direção para coluna */
+                align-items: center; /* Centraliza os itens */
+            }
+
+            nav a {
+                display: block; /* Coloca os links em blocos */
+                margin: 10px 0; /* Espaço entre os links */
             }
         }
 

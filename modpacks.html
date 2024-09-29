@@ -65,6 +65,18 @@
             flex-grow: 1; /* Faz os links ocuparem o espaço restante */
         }
 
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column; /* Muda a direção para coluna */
+                align-items: center; /* Centraliza os itens */
+            }
+
+            nav a {
+                display: block; /* Coloca os links em blocos */
+                margin: 10px 0; /* Espaço entre os links */
+            }
+        }
+
         .nav-links a {
             margin: 0 15px;
         }
