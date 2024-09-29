@@ -123,6 +123,7 @@
             font-family: 'VAG Rounded', Arial, sans-serif;
             font-size: 18px;
         }
+        
     </style>
 </head>
 <body>
@@ -162,11 +163,10 @@
         </a>
     </div>
 
-    <div class="mod-box">
-            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/modpacks/GrannyNoWayOutBannerComingSoon.png" alt="Imagem do Mod">
-            <p>Granny:No Way Out. Coming Soon...</p>
-        </a>
-    </div>
+    <div class="mod-box" onclick="comingSoon()" style="cursor: pointer;">
+        <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/modpacks/GrannyNoWayOutBannerComingSoon.png" alt="Imagem do Mod">
+        <p>Granny: No Way Out. Coming Soon...</p>
+    </div>    
 
     <h1>Mod Packs With gabzin1</h1>
 
@@ -182,6 +182,13 @@
 <footer>
     <p2>© 2024 LeozimGranny - All rights reserved</p2>
 </footer>
+
+<script>
+    // Função que exibe o alerta
+    function comingSoon() {
+        alert("Coming soon!");
+    }
+</script>
 
 </body>
 </html>
