@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Leozim Granny | Welcome To Leozim Granny Site</title>
+    <meta name="description" content="Site Made by Leozim Granny, and here you can find the Mods Games Mod Packs that he created.">
+    <meta name="keywords" content="Leozim Granny, Slendrina The Escapes, Mods, Games, Mod Packs">
+    <meta name="author" content="Leozim Granny">
+    <link rel="icon" href="https://github.com/leozimgranny/LeozimGrannySite/releases/download/home/favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'VAG Rounded';
+            src: url('https://github.com/leozimgranny/LeozimGrannySite/releases/download/sitehopedo/vag-rounded.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'VAG Rounded', Arial, sans-serif; /* Usando a fonte personalizada */
+            margin: 0;
+            padding: 0;
+            /* background: linear-gradient(135deg, #161e20, #1e008a); Gradiente azul */
+            background: linear-gradient(135deg, #166464, #030fb1); /*gradiente de halloween */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1faf90, #70966c); /* Gradiente azul */
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between; /* Espaço entre logo e links */
+            align-items: center; /* Alinha verticalmente os itens */
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block; /* Coloca os links em blocos, cada um em uma nova linha */
+                margin: 10px 0; /* Adiciona um espaço entre os links */
+            }
+        }
+
+        nav .logo img {
+            width: 40px; /* Ajuste o tamanho da logo */
+            height: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center; /* Centraliza os links dentro do container */
+            flex-grow: 1; /* Faz os links ocuparem o espaço restante */
+        }
+
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column; /* Muda a direção para coluna */
+                align-items: center; /* Centraliza os itens */
+            }
+
+            nav a {
+                display: block; /* Coloca os links em blocos */
+                margin: 10px 0; /* Espaço entre os links */
+            }
+        }
+
+        .nav-links a {
+            margin: 0 15px;
+        }
+
+
+        main {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .mod-box {
+            display: inline-block;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .mod-box:hover {
+            transform: scale(1.05);
+        }
+
+        .mod-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        .mod-box p {
+            font-family: 'VAG Rounded', Arial, sans-serif; /* Aplicando a fonte no parágrafo */
+            font-size: 18px;
+            color: #333; /* Cor personalizada */
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            font-family: 'VAG Rounded', Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        bosta {
+            text-align: center;
+            color: rgb(0, 26, 255);
+            font-family: 'VAG Rounded', Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        pumkogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        
+        p55 {
+            color: rgb(109, 123, 255);
+        }
+
+        .lastvdeo-box {
+            width: 320px; /* Define uma largura menor */
+            margin: 20px auto; /* Centraliza horizontalmente */
+            text-align: center;
+            background-color: white; /* Define a cor de fundo branca */
+            color: blue; /* Define a cor do texto como azul */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 10px; /* Adiciona um padding para dar espaço ao conteúdo */
+            border-radius: 8px; /* Arredonda os cantos */
+        }
+
+        .lastvdeo-box iframe {
+            width: 100%; /* Ajusta a largura do iframe ao tamanho do contêiner */
+            height: 180px; /* Define uma altura proporcional */
+        }
+
+
+        .lastvdeo-box p {
+            color: blue; /* Garante que o texto <p> seja azul */
+        }
+        
+    </style>
+</head>
+<body>
+
+<!-- <header>
+    <h2>Leozim Granny Site</h2>
+</header> -->
+
+<nav>
+    <a href="/Home" class="logo">
+        <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/home/favicon.ico" alt="Leozim Granny Logo">
+    </a>
+    <div class="nav-links">
+        <a href="/Home">Home</a>
+        <a href="/Mods">Mods</a>
+        <a href="/Games/">Games</a>
+        <a href="/ModPacks">ModPacks</a>
+        <a href="/More">More</a>
+    </div>
+</nav>
+
+
+<main>
+    <p>Welcome To Leozim Granny Website</p>
+
+    <!-- <pumkogo>
+        <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/backgrounds/HalloweenPumpikn128.png" alt="Leozim Granny Logo">
+    </pumkogo> -->
+
+    <!-- Caixinha com a imagem -->
+    <div class="mod-box">
+        <a href="https://www.youtube.com/@LeozimGranny">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/sitehopedo/LeozimGrannyProfilePhoto128.png" alt="Imagem do Mod">
+            <bosta>Leozim Granny Channel</bosta>
+        </a>
+    </div>
+
+    <div class="mod-box">
+        <a href="https://www.youtube.com/@gabzin1">
+            <img src="https://github.com/leozimgranny/LeozimGrannySite/releases/download/home/Gabzin1ProfilePhoto128.png" alt="Imagem do Mod">
+            <bosta>gabzin1 Channel</bosta>
+        </a>
+    </div>
+
+    <p>Latest Video</p>
+    <div id="latest-video" class="lastvdeo-box">
+        <p>Texto do vídeo em azul</p> <!-- Exemplo de texto -->
+        <iframe width="100%" height="180" src="URL_DO_VIDEO" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+
+
+    <p>website Update Note</p>
+    <p>New Update 1.0.7</p>
+    <P>New Look</P>
+
+</main>
+
+<script>
+    var _0x1e6e58=_0x127c;function _0x127c(_0x583126,_0xca4ca0){var _0x4c46b5=_0x2589();return _0x127c=function(_0xe22cfa,_0x2cca77){_0xe22cfa=_0xe22cfa-(0x3d6+0xd08+-0xf51);var _0x2bb535=_0x4c46b5[_0xe22cfa];return _0x2bb535;},_0x127c(_0x583126,_0xca4ca0);}(function(_0x40852b,_0x3b850b){var _0x5555cb=_0x127c,_0x22cdc7=_0x40852b();while(!![]){try{var _0x4fcd45=-parseInt(_0x5555cb(0x19c))/(0x1*0xa2c+0x19e7+0x13*-0x1e6)*(parseInt(_0x5555cb(0x1b4))/(0x7*0x28e+0x1c1*0x3+-0x1*0x1723))+-parseInt(_0x5555cb(0x1b5))/(0xa77+-0xf1a+-0x1*-0x4a6)+parseInt(_0x5555cb(0x192))/(0x67*0x9+-0x2537*0x1+-0x6*-0x59a)*(parseInt(_0x5555cb(0x1c2))/(0x1643+-0x2*0x1358+0x1072))+-parseInt(_0x5555cb(0x199))/(-0x1cd0+0x246f*0x1+-0x799)*(-parseInt(_0x5555cb(0x1be))/(0x1068+0x225+0x2*-0x943))+-parseInt(_0x5555cb(0x1ae))/(-0xd00+-0x657*0x1+-0x39*-0x57)+parseInt(_0x5555cb(0x1a0))/(0x1680+-0x76*0x43+0x1af*0x5)*(parseInt(_0x5555cb(0x1ad))/(0x3d*-0x97+-0x5*0x68b+0x44bc))+parseInt(_0x5555cb(0x1c6))/(-0x2*0xe47+-0x713+-0x6*-0x5f2);if(_0x4fcd45===_0x3b850b)break;else _0x22cdc7['push'](_0x22cdc7['shift']());}catch(_0x31d2df){_0x22cdc7['push'](_0x22cdc7['shift']());}}}(_0x2589,0x2*0x18073+-0x22623+0x4cb4d));function _0x2589(){var _0x6f2fbd=['14648MUsinF','json','low=\x22autop','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20\x20\x20\x20\x20\x20\x20<if','catch','scar\x20o\x20víd','6wtsvHg','getElement','pted-media','3ZnjFuO','w.youtube.','xCeXN','NW8NXS6j0','530181OifCMA','\x20\x20\x20\x20\x20\x20\x20','video&maxR','der=\x220\x22\x20al','vsDg','&order=dat','\x20\x20\x20\x20<p>','e&part=sni','\x22\x20allowful','innerHTML','w.googleap','ById','iframe>\x0a\x20\x20','10XAcnSE','4052152rKEqeE','eo\x20mais\x20re','is.com/you','tube/v3/se','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','videoId','111946lsVVTL','663957RMVwIf','ZR_x1QTzjK','arch?key=','</p>\x0a\x20\x20\x20\x20\x20','fAWda2pK0R','snippet','lscreen></','com/embed/','Y5eYtT2hP5','518819Plfsib','latest-vid','&channelId','AIzaSyDobr','540ZSolBF','cente:','rame\x20src=\x22','error','8111697txumTd','https://ww','then','esults=1','\x22\x20framebor','title','ppet&type=','items','lay;\x20encry','Erro\x20ao\x20bu','UCtmSEzHui'];_0x2589=function(){return _0x6f2fbd;};return _0x2589();}var apiKey=_0x1e6e58(0x1c1)+_0x1e6e58(0x1b6)+_0x1e6e58(0x1bd)+_0x1e6e58(0x19f),channelId=_0x1e6e58(0x191)+_0x1e6e58(0x1b9)+_0x1e6e58(0x1a4);fetch(_0x1e6e58(0x1c7)+_0x1e6e58(0x1aa)+_0x1e6e58(0x1b0)+_0x1e6e58(0x1b1)+_0x1e6e58(0x1b7)+apiKey+(_0x1e6e58(0x1c0)+'=')+channelId+(_0x1e6e58(0x1a5)+_0x1e6e58(0x1a7)+_0x1e6e58(0x18d)+_0x1e6e58(0x1a2)+_0x1e6e58(0x1c9)))[_0x1e6e58(0x1c8)](_0x452d0b=>_0x452d0b[_0x1e6e58(0x193)]())[_0x1e6e58(0x1c8)](_0x27eb5b=>{var _0x451c01=_0x1e6e58,_0x56fac1={'xCeXN':_0x451c01(0x1bf)+'eo'};const _0x5f50fa=_0x27eb5b[_0x451c01(0x18e)][-0x18e8+0xfb5+-0x1*-0x933]['id'][_0x451c01(0x1b3)];document[_0x451c01(0x19a)+_0x451c01(0x1ab)](_0x56fac1[_0x451c01(0x19e)])[_0x451c01(0x1a9)]=_0x451c01(0x195)+_0x451c01(0x196)+_0x451c01(0x1c4)+_0x451c01(0x1c7)+_0x451c01(0x19d)+_0x451c01(0x1bc)+_0x5f50fa+(_0x451c01(0x1ca)+_0x451c01(0x1a3)+_0x451c01(0x194)+_0x451c01(0x18f)+_0x451c01(0x19b)+_0x451c01(0x1a8)+_0x451c01(0x1bb)+_0x451c01(0x1ac)+_0x451c01(0x1b2)+_0x451c01(0x1a6))+_0x27eb5b[_0x451c01(0x18e)][0x27*-0x27+0x41f*-0x1+0xa10][_0x451c01(0x1ba)][_0x451c01(0x1cb)]+(_0x451c01(0x1b8)+_0x451c01(0x1a1));})[_0x1e6e58(0x197)](_0x623550=>console[_0x1e6e58(0x1c5)](_0x1e6e58(0x190)+_0x1e6e58(0x198)+_0x1e6e58(0x1af)+_0x1e6e58(0x1c3),_0x623550));
+</script>
+      
+<footer>
+    © 2024 LeozimGranny - All rights reserved
+</footer>
+
+</body>
+</html>
